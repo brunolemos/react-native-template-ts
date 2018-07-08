@@ -1,0 +1,15 @@
+{
+  "@babel/core": "latest",
+  "@types/react": "latest",
+  "@types/react-native": "latest",
+  "babel-preset-react-native": "next",
+  "husky": "latest",
+  "lint-staged": "latest",
+  "prettier": "latest",
+  "react-native-typescript-transformer": "latest",
+  "tslint": "latest",
+  "tslint-config-airbnb": "latest",
+  "tslint-config-prettier": "latest",
+  "tslint-react": "latest",
+  "typescript": "latest"
+}
