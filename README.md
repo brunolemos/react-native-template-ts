@@ -11,7 +11,7 @@ When creating a new React Native project, use the command:
 - [x] TypeScript
 - [x] Prettier (with commit hook)
 - [x] TSLint
-- [ ] Jest
+- [x] Jest _(broken on react-native 0.56)_
 - [ ] Web support
 
 ### Requirements
