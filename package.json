@@ -1,4 +1,27 @@
 {
   "name": "react-native-template-modern",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "description": "React Native template using TypeScript, Prettier & TSLint",
+  "license": "MIT",
+  "author": "Bruno Lemos <bruno@brunolemos.org>",
+  "homepage": "https://github.com/brunolemos/react-native-template-modern",
+  "bugs": {
+    "url": "https://github.com/brunolemos/react-native-template-modern/issues"
+  },
+  "scripts": {
+    "test": "node setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brunolemos/react-native-template-modern.git"
+  },
+  "keywords": [
+    "react-native",
+    "typescript",
+    "prettier",
+    "template",
+    "jest",
+    "boilerplate",
+    "modern"
+  ]
 }
