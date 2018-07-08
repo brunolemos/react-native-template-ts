@@ -4,7 +4,7 @@ const path = require('path')
 const templatePackageJSON = require('./package.template.json')
 
 // Utils
-const readFile = filename => fs.readSync(path.join(__dirname, filename))
+const readFile = filename => fs.readFileSync(path.join(__dirname, filename))
 const deleteFile = filename => fs.unlinkSync(path.join(__dirname, filename))
 const writeFile = (filename, data) =>
   fs.writeFileSync(path.join(__dirname, filename), data)
