@@ -4,7 +4,9 @@
 
 When creating a new React Native project, use the command:
 
-`react-native init --template modern`
+- `react-native init projectname --template modern`
+- `cd projectname`
+- `node setup.js`
 
 ### Includes
 

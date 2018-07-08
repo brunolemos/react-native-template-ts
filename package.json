@@ -8,9 +8,6 @@
   "bugs": {
     "url": "https://github.com/brunolemos/react-native-template-modern/issues"
   },
-  "scripts": {
-    "test": "node setup.js"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:brunolemos/react-native-template-modern.git"
