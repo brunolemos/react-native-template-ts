@@ -20,5 +20,6 @@
     "jest",
     "boilerplate",
     "modern"
-  ]
+  ],
+  "jest": {}
 }
