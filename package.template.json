@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "format": "prettier --write '{.,src/**}/*.{js,jsx,ts,tsx}'",
+    "lint": "tslint -p .",
+    "precommit": "tsc && lint-staged",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "studio": "open -a /Applications/Android\\ Studio.app ./android/",
+    "test": "jest",
+    "tsc": "tsc -p .",
+    "xcode": "open ios/$npm_package_name.xcodeproj"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": ["prettier --write", "tslint --fix", "git add"]
+  }
+}
