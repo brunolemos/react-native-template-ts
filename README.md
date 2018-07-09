@@ -1,6 +1,6 @@
 <p>
   <h1 align="center">React Native Modern Template</h1>
-  <h2 align="center">Start a new React Native projects with TypeScript, Prettier & TSLint</h1>
+  <h2 align="center">Start a new React Native project with TypeScript, Prettier & TSLint</h1>
 </p>
 
 ### Usage
