@@ -1,6 +1,6 @@
 {
   "name": "react-native-template-modern",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Start new React Native projects with TypeScript, Prettier & TSLint",
   "license": "MIT",
   "author": "Bruno Lemos <bruno@brunolemos.org>",
