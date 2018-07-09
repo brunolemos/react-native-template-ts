@@ -1,16 +1,16 @@
 {
-  "name": "react-native-template-modern",
+  "name": "react-native-template-ts",
   "version": "0.0.10",
   "description": "Start new React Native projects with TypeScript, Prettier & TSLint",
   "license": "MIT",
   "author": "Bruno Lemos <bruno@brunolemos.org>",
-  "homepage": "https://github.com/brunolemos/react-native-template-modern",
+  "homepage": "https://github.com/brunolemos/react-native-template-ts",
   "bugs": {
-    "url": "https://github.com/brunolemos/react-native-template-modern/issues"
+    "url": "https://github.com/brunolemos/react-native-template-ts/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:brunolemos/react-native-template-modern.git"
+    "url": "git@github.com:brunolemos/react-native-template-ts.git"
   },
   "keywords": [
     "react-native",
@@ -19,6 +19,6 @@
     "template",
     "jest",
     "boilerplate",
-    "modern"
+    "ts"
   ]
 }

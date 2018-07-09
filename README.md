@@ -1,5 +1,5 @@
 <p>
-  <h1 align="center">React Native Modern Template</h1>
+  <h1 align="center">React Native TypeScript Template</h1>
   <h2 align="center">Start a new React Native project with TypeScript, Prettier & TSLint</h1>
 </p>
 
@@ -7,7 +7,7 @@
 
 When creating a new React Native project, use the command:<br/>
 
-<pre align="center">react-native init projectname --template modern</pre>
+<pre align="center">react-native init projectname --template ts</pre>
 
 That's it! 🎉 Then, proceed as usual:
 - `cd projectname`
