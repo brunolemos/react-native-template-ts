@@ -7,7 +7,13 @@ console.log('🔄 Finishing TypeScript project setup...')
 
 // Utils
 const readFile = filename => fs.readFileSync(path.join(__dirname, filename), 'utf8')
-const deleteFile = filename => fs.unlinkSync(path.join(__dirname, filename))
+
+const deleteFile = filename => {
+  try {
+    return fs.unlinkSync(path.join(__dirname, filename))
+  } catch (error) {}
+}
+
 const writeFile = (filename, data) => fs.writeFileSync(path.join(__dirname, filename), data)
 
 // Merge package.json
