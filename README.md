@@ -19,7 +19,7 @@ That's it! 🎉 Then, proceed as usual:
 - [x] Prettier (with commit hook)
 - [x] TSLint
 - [x] Jest _(broken on react-native 0.56)_
-- [ ] Web support
+- [ ] Web support _(soon; waiting for [react-scripts v2](https://github.com/facebook/create-react-app/issues/3815))_
 
 ### Requirements
 
