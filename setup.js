@@ -3,13 +3,12 @@ const path = require('path')
 
 const templatePackageJSON = require('./package.template.json')
 
+console.log('🔄 Finishing TypeScript project setup...')
+
 // Utils
 const readFile = filename => fs.readFileSync(path.join(__dirname, filename), 'utf8')
 const deleteFile = filename => fs.unlinkSync(path.join(__dirname, filename))
-const writeFile = (filename, data) =>
-  fs.writeFileSync(path.join(__dirname, filename), data)
-
-console.log('🔄 Setting up...')
+const writeFile = (filename, data) => fs.writeFileSync(path.join(__dirname, filename), data)
 
 // Merge package.json
 const packageJSON = JSON.parse(readFile('package.json'))
@@ -24,4 +23,9 @@ deleteFile('devDependencies.json')
 deleteFile('package.template.json')
 deleteFile('setup.js')
 
-console.log(`✅ Setup completed!`)
+// Remove setup script from index.js
+const index = readFile('rn-cli.config.js')
+const updatedIndex = index.replace("require('./setup')\n\n", '')
+writeFile('rn-cli.config.js', updatedIndex)
+
+console.log(`✅ Setup completed.`)
