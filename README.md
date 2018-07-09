@@ -5,10 +5,11 @@
 
 ### Usage
 
-When creating a new React Native project, use the command:<br/>
-`react-native init projectname --template modern`
+When creating a new React Native project, use the command:<br/><br/>
 
-That's it! Then, proceed as usual:
+<pre align="center">react-native init projectname --template modern</pre>
+
+That's it! 🎉 Then, proceed as usual:
 - `cd projectname`
 - `npm start`
 
