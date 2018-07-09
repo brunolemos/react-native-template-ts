@@ -19,6 +19,8 @@ writeFile('package.json', JSON.stringify(updatedPackageJSON, null, 2))
 // Delete unnecessary files
 deleteFile('.flowconfig')
 deleteFile('App.js')
+deleteFile('LICENSE')
+deleteFile('README.md')
 deleteFile('devDependencies.json')
 deleteFile('package.template.json')
 deleteFile('setup.js')
