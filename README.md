@@ -5,7 +5,7 @@
 
 ### Usage
 
-When creating a new React Native project, use the command:<br/><br/>
+When creating a new React Native project, use the command:<br/>
 
 <pre align="center">react-native init projectname --template modern</pre>
 
