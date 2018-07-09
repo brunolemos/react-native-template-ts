@@ -1,3 +1,4 @@
+import 'jest'
 import 'react-native'
 
 import React from 'react'
